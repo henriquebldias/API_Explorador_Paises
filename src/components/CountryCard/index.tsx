@@ -7,16 +7,18 @@ interface CountryCardProps {
     name: string
     population: number
     capital: string
+    isDarkMode: boolean
 }
 
 const CountryCard: React.FC<CountryCardProps> = ({
     flags,
     name,
     population,
-    capital
+    capital,
+    isDarkMode
 }) => {
     return (
-        <Link to={"/"} className={styles.card}>
+        <Link to={"/"} className={`${styles.card} ${isDarkMode ? styles.cardDark : styles.cardLight}`}>  
             <img src={flags} alt={name} className={styles.image}/>
             <div className={styles.content}>
                 <h2 className={styles.title}>{name}</h2>

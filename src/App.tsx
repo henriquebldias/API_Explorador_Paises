@@ -14,7 +14,7 @@ const toogleDarkMode = () => {
     <Router>
      <Header isDarkMode={isDarkMode} toogleDarkMode={toogleDarkMode}/>
      <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home isDarkMode={isDarkMode}/>}/>
      </Routes>
     </Router>
   );

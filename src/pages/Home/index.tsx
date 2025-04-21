@@ -4,7 +4,11 @@ import { getAllCountries } from "../../service/api";
 import CountryCard from "../../components/CountryCard";
 import styles from "./Home.module.css"
 
-const Home = () => {
+interface HomeProps {
+    isDarkMode: boolean
+}
+
+const Home:React.FC<HomeProps> = ({isDarkMode}) => {
     const [countries, setCountries] = useState([])
 
     useEffect(() => {
@@ -22,16 +26,18 @@ const Home = () => {
       }, []) 
 
     return(
-        <div className={styles.container}>
+        <div className={`${styles.container} ${isDarkMode ? styles.containerDark : styles.containerLight}`}>
             <div className={styles.content}>
                 <div className={styles.grid}>
                     {
                         countries.map((country: any) => (
-                            <CountryCard
+                            <CountryCard 
+                                key={country.name.common}
                                 flags={country.flags.svg}
                                 name={country.name.common}
                                 population={country.population}
                                 capital={country.capital?.[0]}
+                                isDarkMode={isDarkMode}
                             />
                         ))
                     }
