@@ -18,7 +18,7 @@ const CountryCard: React.FC<CountryCardProps> = ({
     isDarkMode
 }) => {
     return (
-        <Link to={"/"} className={`${styles.card} ${isDarkMode ? styles.cardDark : styles.cardLight}`}>  
+        <Link to={`/country/${name}`} className={`${styles.card} ${isDarkMode ? styles.cardDark : styles.cardLight}`}>  
             <img src={flags} alt={name} className={styles.image}/>
             <div className={styles.content}>
                 <h2 className={styles.title}>{name}</h2>
