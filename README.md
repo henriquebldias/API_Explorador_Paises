@@ -1,6 +1,8 @@
 🌍 Explorador de Países
 Aplicação React para explorar informações de países utilizando a REST Countries API. O projeto permite buscar, visualizar e filtrar dados de países, além de contar com testes automatizados e suporte a tema escuro/claro.
 
+Acesse a URL para ver o projeto: https://rest-countries-api-omega-woad.vercel.app/
+
 🚀 Tecnologias Utilizadas
 React
 
@@ -77,9 +79,11 @@ Inicie o projeto:
 
 npm run dev
 
-Acesse no navegador:
+Acesse no navegador: 
 
-<http://localhost:5173>
+Local: <http://localhost:5173>
+
+Produção: https://rest-countries-api-omega-woad.vercel.app/
 
 🌍 Publicação
 Este projeto pode ser publicado de duas formas:
