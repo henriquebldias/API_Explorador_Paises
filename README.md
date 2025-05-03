@@ -4,32 +4,36 @@ Aplicação React para explorar informações de países utilizando a REST Count
 Acesse a URL para ver o projeto: https://rest-countries-api-omega-woad.vercel.app/
 
 🚀 Tecnologias Utilizadas
-React
+    
+    React
 
-Vite
+    Vite
 
-Axios
+    Axios
 
-React Router DOM
+    React Router DOM
 
-Jest
+    Jest
 
-React Testing Library
+    React Testing Library
 
-REST Countries API
+    REST Countries API
+
 
 ⚙️ Funcionalidades
-🔍 Buscar países por nome
 
-🌐 Filtrar por região (Europa, Ásia, África, etc.)
+  🔍 Buscar países por nome
 
-🧾 Exibir detalhes de cada país
+  🌐 Filtrar por região (Europa, Ásia, África, etc.)
 
-🌓 Alternar entre tema claro e escuro
+  🧾 Exibir detalhes de cada país
 
-✅ Testes unitários com Jest e React Testing Library
+  🌓 Alternar entre tema claro e escuro
 
-☁️ Deploy com Vercel ou GitHub Pages
+  ✅ Testes unitários com Jest e React Testing Library
+
+  ☁️ Deploy com Vercel ou GitHub Pages
+
 
 📁 Estrutura do Projeto
 
@@ -38,24 +42,27 @@ REST Countries API
 
 
 🧪 Testes
-Para rodar os testes unitários:
 
-npm test
-ou
-yarn test
+  Para rodar os testes unitários:
+
+  npm test
+    ou
+  yarn test
+
 
 ▶️ Como Rodar Localmente
+
 Clone o repositório:
 
-git clone <https://github.com/henriquebldias/Rest_Countries_API.git>  cd explorador-paises-react
+  git clone <https://github.com/henriquebldias/Rest_Countries_API.git>  cd explorador-paises-react
 
 Instale as dependências:
 
-npm install
+  npm install
 
 Inicie o projeto:
 
-npm run dev
+  npm run dev
 
 Acesse no navegador: 
 
