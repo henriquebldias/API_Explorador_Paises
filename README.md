@@ -34,42 +34,20 @@ REST Countries API
 📁 Estrutura do Projeto
 
 
-src/
-├── components/
-     ├──  CountryCard/
-	    └── CoutryCard.module.css
-	    └── index.tsx	
-     ├──  Header/
-	    └── Header.module.css
-	    └── index.tsx
-├── pages/
-	├── Details/	
-		└── Details.module.css
-		└── index.tsx
-	├── Home/
-		└── Home.module.css
-		└── index.tsx
-├── services/
-	└── api.ts
-├── tests/
-	└── CountryCard.test.tsx
-	└── Header.test.tsx
-├── App.module.css
-├── App.tsx
-├── main.tsx
-└── index.css
+![estrutura projeto](https://github.com/user-attachments/assets/d772af79-23f6-4a30-94f1-0d3ad12e7959)
+
+
 🧪 Testes
 Para rodar os testes unitários:
-
-
 
 npm test
 ou
 yarn test
+
 ▶️ Como Rodar Localmente
 Clone o repositório:
 
-git clone <https://github.com/seu-usuario/explorador-paises-react.git>  cd explorador-paises-react
+git clone <https://github.com/henriquebldias/Rest_Countries_API.git>  cd explorador-paises-react
 
 Instale as dependências:
 
