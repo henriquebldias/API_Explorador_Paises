@@ -61,10 +61,13 @@ Acesse a URL para ver o projeto: https://rest-countries-api-omega-woad.vercel.ap
 
   Para rodar os testes unitários:
 
+     npm test 
+    
+   
  
+ou
 
-     npm test ou yarn test
-
+    yarn test
 
 ▶️ **Como Rodar Localmente**
 
