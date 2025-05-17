@@ -18,7 +18,7 @@ jobs:
           node-version: 22
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm run build
 
       - name: Rodar testes com Vitest
         run: npx vitest run --coverage
