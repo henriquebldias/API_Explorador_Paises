@@ -1,0 +1,24 @@
+name: Testes - Vite com Vitest
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  vitest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependências
+        run: npm run build
+
+      - name: Rodar testes com Vitest
+        run: npx vitest run --coverage
